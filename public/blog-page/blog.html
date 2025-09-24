@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <!-- Added Google Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="blogstyle.css" />
+</head>
+
+<body>
+  <header>
+    <a href="../index.html">
+      <div class="logo">
+        <img src="../images/logo.png" alt="Mystigo Logo" />
+      </div>
+    </a>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Hotspots
+            <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="../location/place.html?id=66ff91a0b5aaac5c3808b92c">Bhogwe Beach</a>
+            </li>
+            <li>
+              <a href="../location/place.html?id=66ff91a0b5aaac5c3808b932">Kalavantin Durg trek</a>
+            </li>
+            <li>
+              <a href="../location/place.html?id=66ff91a0b5aaac5c3808b92a">Ambabai Temple</a>
+            </li>
+            <li>
+              <a href="../location/place.html?id=66ff91a0b5aaac5c3808b92b">Bhagwan Mahavir Wildlife Sanctuary</a>
+            </li>
+            <li>
+              <a href="../location/place.html?id=66ff91a0b5aaac5c3808b935">Karla Caves</a>
+            </li>
+            <li>
+              <a href="../location/place.html?id=66ff91a0b5aaac5c3808b934">Kandhar Fort</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Categories
+            <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="../categories/category.html?category=beach">Beaches</a>
+            </li>
+            <li>
+              <a href="../categories/category.html?category=nationalpark">National Parks</a>
+            </li>
+            <li>
+              <a href="../categories/category.html?category=trek">Treks</a>
+            </li>
+            <li>
+              <a href="../categories/category.html?category=religious">Religious Places</a>
+            </li>
+            <li>
+              <a href="../categories/category.html?category=fortcave">Forts & Caves</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="../blogs.html">Blogs</a></li>
+        <!-- <li><a href="#">Suggestions</a></li> -->
+        <li><a href="#footer">About Us</a></li>
+        <!-- <li>
+          <a href="../signup/index.html" class="sign-up" id="sign-up">Sign Up</a>
+        </li> -->
+        <li>
+          <img id="profileImage" src="../images/user.png" style="display: none" alt="" />
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!------------- Blog Content ------------------>
+  <section class="main-section">
+    <!-- Title -->
+    <h1 class="title" id="title">Top 10 Waterfalls in Maharashtra</h1>
+
+    <!-- Image -->
+    <img src="https://i.ibb.co/myjpztN/waterfall.jpg" alt="Waterfall" class="waterfall-image" id="image"/>
+
+    <!-- Introduction -->
+    <div class="introduction">
+      <p id="introduction" >
+        Maharashtra is home to many majestic waterfalls, each offering a
+        unique view of nature's wonder. From serene environments to thrilling
+        adventures, these waterfalls provide a perfect escape for nature
+        lovers and adventure enthusiasts alike.<br>
+        In this guide, we explore the
+        <b>Top 10 Waterfalls in Maharashtra</b> that are worth visiting for
+        their pristine beauty, serenity, and recreational activities. Let's
+        dive into the top picks!
+      </p>
+    </div>
+
+    <!-- Waterfalls List -->
+    <ol class="waterfall-list" id="list">
+      <!-- <li>
+        <h2>Lingmala Waterfall</h2>
+        <p>
+          Known for its picturesque surroundings and serene atmosphere,
+          Lingmala Waterfall cascades from a height of about 600 feet,
+          offering visitors a mesmerizing view of nature in all its glory. A
+          perfect spot for a relaxing picnic or a peaceful day out.
+        </p>
+      </li> -->
+      <!-- Continue for all waterfalls -->
+    </ol>
+
+    <!-- Conclusion -->
+    <div class="conclusion-box">
+      <h2>Conclusion</h2>
+      <p class="conclusion" id="conclusion">
+        Each of these waterfalls offers a unique experience, from thrilling
+        water adventures to peaceful retreats amidst nature. Explore
+        Maharashtra’s waterfalls and witness the majestic beauty that awaits
+        at each turn!
+      </p>
+    </div>
+  </section>
+
+  <!------------- Footer --------------------->
+  <section class="footer">
+    <div class="container footer-content">
+      <div class="about-us">
+        <h4>About Us</h4>
+        <p>
+          Welcome to your insiders guide to authentic travel experiences.
+          Discover hidden gems and essential tips from locals to explore
+          destinations like never before!
+        </p>
+        <div class="social-icons">
+          <img src="../images/instagram.png" alt="Instagram" />
+          <img src="../images/facebook.png" alt="Facebook" />
+          <img src="../images/x.png" alt="Twitter" />
+          <img src="../images/youtube.png" alt="YouTube" />
+        </div>
+      </div>
+      <div class="query-form">
+        <h4>Have a Query?</h4>
+        <form>
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="E-mail" />
+          <textarea name="query" placeholder="Write Query"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="../script.js"></script>
+  <Script src="./blog.js"></Script>
+</body>
+</html>
